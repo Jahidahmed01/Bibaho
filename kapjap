@@ -1,0 +1,104 @@
+ <form   method="Post">
+  <div class="container">
+  <label><b>Father name</b></label>
+    <input type="text" placeholder="Enter your father name " name="fname" required><br>
+
+    
+  <label><b>Occupation</b></label>
+    <select class="selet" id="religion" name="foccupation">
+      <option value="doctor">Doctor</option>
+      <option value="teacher">Teacher</option>
+      <option value="business">Business</option>
+      <option value="farmer">farmer</option>
+    </select>
+    <br>
+
+    <label><b>Mother name</b></label>
+    <input type="text" placeholder="Enter your mother name " name="mname" required><br>
+    
+    <label><b>Occupation</b></label>
+    <select class="selet" id="religion" name="moccupation">
+    <option value="housewife">Housewife</option>
+      <option value="doctor">Doctor</option>
+      <option value="teacher">Teacher</option>
+      <option value="business">Business</option>
+      <option value="farmer">farmer</option>
+    </select>
+    <br>
+    
+    <label><b>No. of Brothers:</b></label>
+    <select class="selet" id="religion" name="brothers">
+      <option value="one">1</option>
+      <option value="two">2</option>
+      <option value="three">3</option>
+      <option value="four">4</option>
+      <option value="four">5</option>
+      <option value="four">6</option>
+    </select>
+    <br>
+    <label><b>No. of Sisters:</b></label>
+    <select class="selet" id="religion" name="sisters">
+      <option value="one">1</option>
+      <option value="two">2</option>
+      <option value="three">3</option>
+      <option value="four">4</option>
+      <option value="four">5</option>
+      <option value="four">6</option>
+    </select>
+    <br>
+    <label><b>Family Types</b></label>
+    <input type="text" placeholder="Enter Family Types" name="familytypes" required><br>
+
+
+    
+      
+      <button type="submit" name="submit">Submit</button>
+    </div>
+  </div>
+</form>
+
+
+
+<form   method="Post">
+  <div class="container">
+    
+  <label><b>Highest Qualification</b></label>
+    <select class="selet" id="religion" name="university">
+      <option value="Chittagong University">Chittagong University</option>
+      <option value="Dhaka University">Dhaka University</option>
+      <option value="Premier University">Premier University</option>
+      <option value="Coumilla university">Coumilla university</option>
+    </select>
+    <br>
+    <label><b>CGPA</b></label>
+    <input type="text" placeholder="Enter your cgpa" name="cgpa" required><br>
+
+    <label><b>HSC</b></label>
+    <select class="selet" id="religion" name="college">
+      <option value="Chittagong University">Chittagong College</option>
+      <option value="Dhaka University">Dhaka College</option>
+      <option value="Premier University">Mohshin College</option>
+      <option value="Coumilla university">Coumilla College</option>
+    </select>
+    <br>
+    <label><b>GPA</b></label>
+    <input type="text" placeholder="Enter your gpa" name="gpa" required><br>
+
+    <label><b>SSC</b></label>
+    <select class="selet" id="religion" name="school">
+      <option value="Chittagong University">Ideal School and College</option>
+      <option value="Dhaka University">Chittagong Govt High School</option>
+      <option value="Premier University">Chittagong Public school</option>
+      <option value="Coumilla university">Nasirabad Govt School</option>
+    </select>
+    <br>
+    <label><b>GPA</b></label>
+    <input type="text" placeholder="Enter your gpa" name="gpas" required><br>
+
+
+    
+      
+      <button type="submit" name="submit">Submit</button>
+    </div>
+  </div>
+</form>
